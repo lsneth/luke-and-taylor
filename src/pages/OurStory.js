@@ -1,7 +1,5 @@
-import Header from '../components/Header'
-
 export default function OurStory() {
     return (
-        <Header/>
+        <h1>Our Story</h1>
     )
   }

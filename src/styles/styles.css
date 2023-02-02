@@ -29,6 +29,7 @@ nav{
   margin:0 4%;
   font-weight: 500;
   color:var(--green);
+  text-decoration: none;
 }
 
 .navButton:hover{
@@ -36,7 +37,7 @@ nav{
   color:var(--pink);
 }
 
-.navButton:active{
+.navButton:focus{
   border-bottom:solid var(--green) 2px;
 }
 

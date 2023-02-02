@@ -29,7 +29,6 @@ export default function Photos() {
 
   return (
     <div>
-      <Header/>
       <Hero/>
       <Gallery
         margin={1}
