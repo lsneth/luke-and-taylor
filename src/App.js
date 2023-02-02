@@ -1,15 +1,20 @@
 import React, { useEffect } from 'react'
-import './styles/styles.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Gallery from './components/Gallery'
+import { BrowserRouter, Routes, Route } from "react-router-dom";import './styles/styles.css'
+import Photos from './pages/Photos'
+import OurStory from './pages/OurStory'
+import Registry from './pages/Registry'
 
 export default function App() {
  return (
-   <div className="App" onContextMenu="return false;">
-      <Header/>
-      <Hero/>
-      <Gallery/>
-    </div>
+    <BrowserRouter className="App">
+      <Routes>
+        <Route>
+          <Route index element={<Photos />} />
+          <Route path="blogs" element={<OurStory />} />
+          <Route path="contact" element={<Registry />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
   );
 }

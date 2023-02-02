@@ -25,7 +25,8 @@ nav{
 
 .navButton{
   display:inline;
-  padding:10px 8%;
+  padding:10px;
+  margin:0 4%;
   font-weight: 500;
   color:var(--green);
 }
@@ -33,6 +34,10 @@ nav{
 .navButton:hover{
   cursor: pointer;
   color:var(--pink);
+}
+
+.navButton:active{
+  border-bottom:solid var(--green) 2px;
 }
 
 #hero {
@@ -56,6 +61,6 @@ nav{
 @media only screen and (min-width: 40em) {
   #hero-text-img{
     max-width:600px;
+    margin:25vh 0 0 0;
   }
-  
 }

@@ -17,12 +17,6 @@ export const images = [
     height: 7008,
   },
   {
-    src: sixL,
-    original: sixL,
-    width: 7008,
-    height: 4672,
-  },
-  {
     src: twoP,
     original: twoP,
     width: 4672,
@@ -43,6 +37,12 @@ export const images = [
   {
     src: eightL,
     original: eightL,
+    width: 7008,
+    height: 4672,
+  },
+  {
+    src: sixL,
+    original: sixL,
     width: 7008,
     height: 4672,
   },
