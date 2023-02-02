@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './styles/base.css'
+import './styles/styles.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Gallery from './components/Gallery'

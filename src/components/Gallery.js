@@ -11,17 +11,20 @@ const slides = images.map(({ original, width, height }) => ({
 }));
 
 export default function App() {
+  const [rowHeight, setRowHeight]=useState(180)
   const [index, setIndex] = useState(-1);
+
 
   const handleClick = (index, item) => setIndex(index);
 
   return (
-    <div class='gallery-container'>
+    <div className='gallery-container'>
       <Gallery
+        margin={1}
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
-        // rowHeight={300}
+        rowHeight={rowHeight}
       />
       <Lightbox
         slides={slides}

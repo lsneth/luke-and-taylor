@@ -49,8 +49,8 @@ nav{
   max-width:100%;
 }
 
-.gallery-container{
-  margin:auto;
+.ReactGridGallery_tile:hover{
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 40em) {
