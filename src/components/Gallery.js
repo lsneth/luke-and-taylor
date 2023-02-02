@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import { images, CustomImage } from "../images/images";
+import { images } from "../images/images";
 
 const slides = images.map(({ original, width, height }) => ({
   src: original,
@@ -16,11 +16,12 @@ export default function App() {
   const handleClick = (index, item) => setIndex(index);
 
   return (
-    <div>
+    <div class='gallery-container'>
       <Gallery
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
+        // rowHeight={300}
       />
       <Lightbox
         slides={slides}

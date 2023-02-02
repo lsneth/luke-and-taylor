@@ -1,55 +1,73 @@
-import one from './1.jpg'
-import two from './2.jpg'
-import three from './3.jpg'
-import four from './4.jpg'
-import five from './5.jpg'
-import six from './6.jpg'
-import seven from './7.jpg'
-import eight from './8.jpg'
-import nine from './9.jpg'
-import ten from './10.jpg'
+import oneP from './1.jpg'
+import twoP from './2.jpg'
+import threeP from './3.jpg'
+import fourP from './4.jpg'
+import fiveP from './5.jpg'
+import sixL from './6.jpg'
+import sevenL from './7.jpg'
+import eightL from './8.jpg'
+import nineL from './9.jpg'
+import tenP from './10.jpg'
 
 export const images = [
   {
-    src: one,
-    original: one,
+    src: oneP,
+    original: oneP,
     width: 4672,
     height: 7008,
   },
   {
-    src: two,
-    original: two,
+    src: sixL,
+    original: sixL,
+    width: 7008,
+    height: 4672,
   },
   {
-    src: three,
-    original: three,
+    src: twoP,
+    original: twoP,
+    width: 4672,
+    height: 7008,
   },
   {
-    src: four,
-    original: four,
+    src: sevenL,
+    original: sevenL,
+    width: 7008,
+    height: 4672,
   },
   {
-    src: five,
-    original: five,
+    src: threeP,
+    original: threeP,
+    width: 4672,
+    height: 7008,
   },
   {
-    src: six,
-    original: six,
+    src: eightL,
+    original: eightL,
+    width: 7008,
+    height: 4672,
   },
   {
-    src: seven,
-    original: seven,
+    src: fourP,
+    original: fourP,
+    width: 4672,
+    height: 7008,
   },
   {
-    src: eight,
-    original: eight,
+    src: nineL,
+    original: nineL,
+    width: 7008,
+    height: 4672,
   },
   {
-    src: nine,
-    original: nine,
+    src: fiveP,
+    original: fiveP,
+    width: 4672,
+    height: 7008,
   },
   {
-    src: ten,
-    original: ten,
+    src: tenP,
+    original: tenP,
+    width: 4672,
+    height: 7008,
   },
 ];
