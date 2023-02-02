@@ -46,5 +46,12 @@ nav{
 
 #hero-text-img{
   margin:30vh 0 0 0;
-  max-width:600px;
+  max-width:100%;
+}
+
+@media only screen and (min-width: 40em) {
+  #hero-text-img{
+    max-width:600px;
+  }
+  
 }
