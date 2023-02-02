@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './styles/base.css'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Gallery from './components/Gallery'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function App() {
+  const images = [
+    {
+       src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+       width: 320,
+       height: 174,
+    },
+    {
+       src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+       width: 320,
+       height: 212,
+    },
+  
+    {
+       src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+       width: 320,
+       height: 212,
+       customOverlay: (
+        <div className="custom-overlay__caption">
+          <div>Boats (Jeshu John - designerspics.com)</div>
+        </div>
+      ),
+    },
+ ];
+  
+ return (
+   <div className="App" onContextMenu="return false;">
+      <Header/>
+      <Hero/>
+      <Gallery/>
     </div>
   );
 }
-
-export default App;

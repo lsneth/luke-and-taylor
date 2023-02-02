@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
+:root {
+  --blue: #1c233d;
+  --green: #6f715b;
+  --pink: #e8c9c6;
+}
+
+*{
+  font-family: 'Inter Tight', sans-serif;
+  color:var(--blue);
+  font-size:16px;
+}
+
+img{
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
+
+nav{
+  background-color: white;
+  padding:25px;
+  text-align: center;
+}
+
+.navButton{
+  display:inline;
+  padding:10px 8%;
+  font-weight: 500;
+  color:var(--green);
+}
+
+.navButton:hover{
+  cursor: pointer;
+  color:var(--pink);
+}
+
+#hero {
+  background:linear-gradient(180deg, rgba(0,0,0,0.45420174905899857) 0%, rgba(255,255,255,0) 6%, rgba(255,255,255,0) 45%, rgba(0,0,0,0.4962185557816877) 100%),url('../images/hero.jpg');
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  background-position: center;
+  text-align: center;
+}
+
+#hero-text-img{
+  margin:30vh 0 0 0;
+  max-width:600px;
+}
