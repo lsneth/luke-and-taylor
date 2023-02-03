@@ -2,8 +2,7 @@ import { useEffect, useState } from "react"
 import { Gallery } from "react-grid-gallery"
 import Lightbox from "yet-another-react-lightbox"
 import "yet-another-react-lightbox/styles.css"
-import { images } from "../images/images"
-import Header from '../components/Header'
+import { images } from "../images/gallery-images"
 import Hero from '../components/Hero'
 
 

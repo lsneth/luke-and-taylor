@@ -1,7 +1,10 @@
+import TextImage from '../components/TextImage'
+
 export default function OurStory() {
     return (
         <div className='eucalyptus-bg'>
             <div className='text'>
+                <TextImage src=''/>
                 <h1>Taylor:</h1>
                 <p>
                     If someone would have told me that the first Saturday in Edmond, Oklahoma

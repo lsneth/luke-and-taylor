@@ -6,9 +6,12 @@
 
 *{
   font-family: 'Merriweather', serif;
-  color:var(--blue);
   font-size:16px;
   font-weight: 400;
+}
+
+body{
+  color:var(--blue);
 }
 
 img{
@@ -35,6 +38,14 @@ a{
   margin:40px;
 }
 
+.text h1{
+  font-size: 40px;
+}
+
+.whiteX{
+  color:white;
+}
+
 .navButton{
   font-family: 'Josefin Sans', sans-serif;
   display:inline;
@@ -42,6 +53,7 @@ a{
   margin:0;
   font-weight:400;
   font-size:12px;
+  color:var(--blue);
 }
 
 .navButton:hover{
@@ -132,6 +144,10 @@ button:hover{
   margin:0;
 }
 
+.text-image img{
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 40em) {
   #hero-text-img{
     max-width:600px;
@@ -139,7 +155,7 @@ button:hover{
   }
 
   .text{
-    max-width:800px;
+    max-width:700px;
     margin:0 auto;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
@@ -151,9 +167,14 @@ button:hover{
   }
 
   .eucalyptus-bg{
-    background-image:url('../images/eucalyptus.png');
-    background-size: cover;
-    background-position: center;
     padding:40px;
+  }
+}
+
+@media only screen and (min-width: 70em) {
+  .eucalyptus-bg{
+    background-image:url('../images/eucalyptus-long.png');
+    background-size: cover;
+    background-position: top center;
   }
 }
