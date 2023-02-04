@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";import './styles
 import Photos from './pages/Photos'
 import OurStory from './pages/OurStory'
 import Registry from './pages/Registry'
-import Layout from './components/Nav';
+import Nav from './components/Nav';
 
 export default function App() {
  return (
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Nav />}>
           <Route index element={<Photos />} />
           <Route path="our-story" element={<OurStory />} />
           <Route path="registry" element={<Registry />} />
