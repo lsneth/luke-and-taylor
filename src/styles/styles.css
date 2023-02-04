@@ -61,6 +61,15 @@ a{
   color:var(--pink);
 }
 
+p{
+  line-height: 30px;
+  padding-top:20px;
+}
+
+.dialogue{
+  font-weight:bold;
+}
+
 #registry-content{
   text-align: center;
   margin: 0 auto;
