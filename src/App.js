@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 
 export default function App() {
  return (
+  <BrowserRouter className="App" basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Nav />}>
           <Route index element={<Photos />} />
@@ -14,5 +15,6 @@ export default function App() {
           <Route path="registry" element={<Registry />} />
         </Route>
       </Routes>
+      </BrowserRouter>
   );
 }
