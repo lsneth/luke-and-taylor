@@ -7,7 +7,6 @@ import Layout from './components/Nav';
 
 export default function App() {
  return (
-    <BrowserRouter className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Photos />} />
@@ -15,7 +14,5 @@ export default function App() {
           <Route path="registry" element={<Registry />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-
   );
 }
