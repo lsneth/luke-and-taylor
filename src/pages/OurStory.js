@@ -22,6 +22,7 @@ export default function OurStory() {
                     all the students that one in five YSA that work at FSY meet their eternal companion
                     there. That was enough to get me to brave a summer of dancing haha.
                 </p>
+                <p><span className='dialogue'>Taylor:</span></p>
             </div>
         </div>
     )
