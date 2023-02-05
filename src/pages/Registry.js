@@ -4,7 +4,7 @@ export default function Registry() {
     return (
         <div className='eucalyptus-bg'>
             <div id='registry-content'>
-                <img id='registry-img' src={portrait} alt='picture of Luke and Taylor'/>
+                <img id='registry-img' src={portrait} alt='Luke and Taylor'/>
                 <p className='text'>
                     We are so excited as we prepare to start our lives together as husband and wife.
                     The love and support we have received from our friends and family has been truly
