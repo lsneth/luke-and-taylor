@@ -1,13 +1,13 @@
 {
-    "short_name": "Luke and Tay",
-    "name": "Luke and Tay",
-    "icons": [
-      {
-        "src": "favicon.ico",
-        "sizes": "48x48",
-        "type": "image/x-icon"
-      }
-    ],
-    "start_url": ".",
-    "display": "standalone"
-  }
+  "short_name": "Luke and Tay",
+  "name": "Luke and Tay",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

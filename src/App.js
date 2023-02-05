@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { createHashHistory } from 'history';
 import './styles/styles.css'
 import Photos from './pages/Photos'
 import OurStory from './pages/OurStory'
@@ -7,9 +8,9 @@ import Registry from './pages/Registry'
 import Nav from './components/Nav'
 
 export default function App() {
-  console.log(process.env.PUBLIC_URL)
+  const history = createHashHistory();
  return (
-  <BrowserRouter className='App'>
+  <BrowserRouter className='App' history={history}>
     <Routes>
       <Route path={`${process.env.PUBLIC_URL}/`} element={<Nav />}>
         <Route index element={<Photos />} />
