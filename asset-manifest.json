@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6e03432e.css",
-    "main.js": "/static/js/main.ae1b93c8.js",
+    "main.js": "/static/js/main.8be76ffb.js",
     "static/media/hero.jpg": "/static/media/hero.f879fedf48081ba1f347.jpg",
     "static/media/eucalyptus-long.png": "/static/media/eucalyptus-long.009482fc52f117b2d2f7.png",
     "static/media/registry.jpg": "/static/media/registry.6697fa153a73a0680d10.jpg",
@@ -54,10 +54,10 @@
     "static/media/hero-text.png": "/static/media/hero-text.8b0dbbeedfae358c788d.png",
     "index.html": "/index.html",
     "main.6e03432e.css.map": "/static/css/main.6e03432e.css.map",
-    "main.ae1b93c8.js.map": "/static/js/main.ae1b93c8.js.map"
+    "main.8be76ffb.js.map": "/static/js/main.8be76ffb.js.map"
   },
   "entrypoints": [
     "static/css/main.6e03432e.css",
-    "static/js/main.ae1b93c8.js"
+    "static/js/main.8be76ffb.js"
   ]
 }
