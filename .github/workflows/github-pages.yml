@@ -4,16 +4,11 @@ on:
   push:
     branches: [ main ]
 jobs:
-  build-push-gcr:
+  build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
-    - name: Use Node.js version 16
-      uses: actions/setup-node@v2
-      with:
-        node-version: 16
-
     - name: Checkout
       uses: actions/checkout@v2
 

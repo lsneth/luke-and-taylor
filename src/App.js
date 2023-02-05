@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";import './styles/styles.css'
 import Photos from './pages/Photos'
 import OurStory from './pages/OurStory'
