@@ -180,6 +180,10 @@ button:hover{
   }
 }
 
+  .activeTab{
+    color:var(--pink);
+  }
+
 @media only screen and (min-width: 70em) {
   .eucalyptus-bg{
     background-image:url('../images/eucalyptus-long.png');
