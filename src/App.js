@@ -7,7 +7,6 @@ import Registry from './pages/Registry'
 import Nav from './components/Nav'
 
 export default function App() {
-  const history = createHashHistory();
  return (
   <HashRouter className='App'>
     <Routes>
