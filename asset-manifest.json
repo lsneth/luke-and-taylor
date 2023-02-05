@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e03432e.css",
-    "main.js": "/static/js/main.8be76ffb.js",
-    "static/media/hero.jpg": "/static/media/hero.f879fedf48081ba1f347.jpg",
+    "main.css": "/static/css/main.fbb806de.css",
+    "main.js": "/static/js/main.a762e44e.js",
     "static/media/eucalyptus-long.png": "/static/media/eucalyptus-long.009482fc52f117b2d2f7.png",
-    "static/media/registry.jpg": "/static/media/registry.6697fa153a73a0680d10.jpg",
     "static/media/bike2.jpg": "/static/media/bike2.20ab025c57989147ccdd.jpg",
     "static/media/truck.jpg": "/static/media/truck.580ef766fb62a6526974.jpg",
     "static/media/nap.jpg": "/static/media/nap.f25f11cca93ceb7a47cb.jpg",
@@ -18,6 +16,7 @@
     "static/media/fsyTeam1.jpg": "/static/media/fsyTeam1.02ca543bdb0213349619.jpg",
     "static/media/beforeBaseball.jpg": "/static/media/beforeBaseball.e514f8bf1af402a25410.jpg",
     "static/media/peachDays.jpg": "/static/media/peachDays.7264af69fc7d5b92bb0e.jpg",
+    "static/media/hero.jpg": "/static/media/hero.8f8f491e910040e23ee3.jpg",
     "static/media/slc.jpg": "/static/media/slc.c0af151fb67d570c99e0.jpg",
     "static/media/iceCaves2.jpg": "/static/media/iceCaves2.b6ded82a801c872bd4c9.jpg",
     "static/media/mine.jpg": "/static/media/mine.bea409990970907eade0.jpg",
@@ -37,6 +36,7 @@
     "static/media/winco.jpg": "/static/media/winco.229f7968cf5273115996.jpg",
     "static/media/classroom.jpg": "/static/media/classroom.816d02c3e628256b5dd5.jpg",
     "static/media/lastDay.jpg": "/static/media/lastDay.8e46a23445efbb785690.jpg",
+    "static/media/registry.jpg": "/static/media/registry.56e616260924b370a9cd.jpg",
     "static/media/firstDate.jpg": "/static/media/firstDate.07da680be4b482f10884.jpg",
     "static/media/temple.jpg": "/static/media/temple.e662f5a94ab494325ffe.jpg",
     "static/media/engagements3.jpg": "/static/media/engagements3.73880ba0aa07acc48008.jpg",
@@ -53,11 +53,11 @@
     "static/media/lastNight.jpg": "/static/media/lastNight.e7ba5dccb124da22f7c4.jpg",
     "static/media/hero-text.png": "/static/media/hero-text.8b0dbbeedfae358c788d.png",
     "index.html": "/index.html",
-    "main.6e03432e.css.map": "/static/css/main.6e03432e.css.map",
-    "main.8be76ffb.js.map": "/static/js/main.8be76ffb.js.map"
+    "main.fbb806de.css.map": "/static/css/main.fbb806de.css.map",
+    "main.a762e44e.js.map": "/static/js/main.a762e44e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e03432e.css",
-    "static/js/main.8be76ffb.js"
+    "static/css/main.fbb806de.css",
+    "static/js/main.a762e44e.js"
   ]
 }
