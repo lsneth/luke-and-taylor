@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react"
-import { Gallery } from "react-grid-gallery"
-import Lightbox from "yet-another-react-lightbox"
-import "yet-another-react-lightbox/styles.css"
-import { images } from "../images/gallery-images"
+import { useEffect, useState } from 'react'
+import { Gallery } from 'react-grid-gallery'
+import Lightbox from 'yet-another-react-lightbox'
+import 'yet-another-react-lightbox/styles.css'
+import { images } from '../images/gallery-images'
 import Hero from '../components/Hero'
 
 
@@ -20,7 +20,7 @@ export default function Photos() {
     if (document.body.clientWidth<=600) setRowHeight(document.body.clientWidth*.5)
     else setRowHeight(300)
   }
-  window.addEventListener("resize", onresize)
+  window.addEventListener('resize', onresize)
 
   const handleClick = (index, item) => setIndex(index)
 

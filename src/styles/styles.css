@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
   --blue: #1c233d;
   --green: #6f715b;
   --pink: #e8c9c6;
@@ -14,6 +16,7 @@ body{
   color:var(--blue);
 }
 
+/*prevents img download option on right click*/
 img{
   pointer-events: none;
   -webkit-touch-callout: none;
@@ -34,16 +37,31 @@ a{
   text-decoration: none;
 }
 
+p{
+  line-height: 30px;
+  padding-top:20px;
+}
+
+button{
+  border:none;
+  padding:10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin:15px auto;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 3px rgb(206, 206, 206));
+}
+
+button:hover{
+  cursor: pointer;
+}
+
 .text{
   margin:40px;
 }
 
 .text h1{
   font-size: 40px;
-}
-
-.whiteX{
-  color:white;
 }
 
 .navButton{
@@ -61,10 +79,6 @@ a{
   color:var(--pink);
 }
 
-p{
-  line-height: 30px;
-  padding-top:20px;
-}
 
 .dialogue{
   font-weight:bold;
@@ -122,19 +136,6 @@ p{
   background-color: #0074de;
 }
 
-button{
-  border:none;
-  padding:10px 20px;
-  border-radius: 5px;
-  display: block;
-  margin:15px auto;
-  font-weight: bold;
-  filter: drop-shadow(1px 1px 3px rgb(206, 206, 206));
-}
-
-button:hover{
-  cursor: pointer;
-}
 
 #footer{
   margin-top:100px;
@@ -155,6 +156,10 @@ button:hover{
 
 .text-image img{
   max-width: 100%;
+}
+
+.activeTab{
+  color:var(--pink);
 }
 
 @media only screen and (min-width: 40em) {
@@ -180,9 +185,6 @@ button:hover{
   }
 }
 
-  .activeTab{
-    color:var(--pink);
-  }
 
 @media only screen and (min-width: 70em) {
   .eucalyptus-bg{
