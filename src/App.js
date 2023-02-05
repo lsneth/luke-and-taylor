@@ -7,6 +7,7 @@ import Registry from './pages/Registry'
 import Nav from './components/Nav'
 
 export default function App() {
+  console.log(process.env.PUBLIC_URL)
  return (
   <BrowserRouter className='App'>
     <Routes>
