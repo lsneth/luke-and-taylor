@@ -1,3 +1,3 @@
-# [lukeandtay.com](lukeandtay.com)
+# [lukeandtay.com](https://lukeandtay.com/)
 
 Website to show our pictures, tell our story, and provide links to our registry.
