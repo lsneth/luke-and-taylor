@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8a21d63.css",
+    "main.css": "/static/css/main.6dac5eec.css",
     "main.js": "/static/js/main.36877d60.js",
     "static/media/eucalyptus-long.png": "/static/media/eucalyptus-long.009482fc52f117b2d2f7.png",
     "static/media/bike2.jpg": "/static/media/bike2.20ab025c57989147ccdd.jpg",
@@ -53,11 +53,11 @@
     "static/media/lastNight.jpg": "/static/media/lastNight.e7ba5dccb124da22f7c4.jpg",
     "static/media/hero-text.png": "/static/media/hero-text.8b0dbbeedfae358c788d.png",
     "index.html": "/index.html",
-    "main.c8a21d63.css.map": "/static/css/main.c8a21d63.css.map",
+    "main.6dac5eec.css.map": "/static/css/main.6dac5eec.css.map",
     "main.36877d60.js.map": "/static/js/main.36877d60.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8a21d63.css",
+    "static/css/main.6dac5eec.css",
     "static/js/main.36877d60.js"
   ]
 }
