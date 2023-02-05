@@ -8,14 +8,14 @@ import Nav from './components/Nav'
 
 export default function App() {
  return (
-    <BrowserRouter className='App'>
-      <Routes>
-        <Route path='/' element={<Nav />}>
-          <Route index element={<Photos />} />
-          <Route path='our-story' element={<OurStory />} />
-          <Route path='registry' element={<Registry />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+  <BrowserRouter className='App'>
+    <Routes>
+      <Route path={`${process.env.PUBLIC_URL}/`} element={<Nav />}>
+        <Route index element={<Photos />} />
+        <Route path={`${process.env.PUBLIC_URL}/our-story`} element={<OurStory />} />
+        <Route path={`${process.env.PUBLIC_URL}/registry`} element={<Registry />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
   )
 }
