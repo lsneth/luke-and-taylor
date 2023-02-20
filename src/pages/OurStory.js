@@ -1,4 +1,7 @@
+import ReactGA from "react-ga4"
+
 export default function OurStory() {
+    useEffect(()=>ReactGA.send({ hitType: "pageview", page: "page: window.location.href" }),[])
     return (
         <div className='eucalyptus-bg'>
             <div className='text'>

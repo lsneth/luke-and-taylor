@@ -5,7 +5,6 @@ import portrait from '../images/registry.jpg'
 
 export default function Registry() {
     ReactGA.initialize('G-4GBXBDPV9M')
-    ReactGA.send({ hitType: "pageview", page: "/#/registry" })
 
     function sendEvent({category, action}){
         ReactGA.event({
@@ -14,7 +13,7 @@ export default function Registry() {
         })
     }
 
-    useEffect(()=>ReactGA.send({ hitType: "pageview", page: "/#/registry" }),[])
+    useEffect(()=>ReactGA.send({ hitType: "pageview", page: "page: window.location.href" }),[])
 
     return (
         <div className='eucalyptus-bg'>
