@@ -13,7 +13,7 @@ export default function Registry() {
         })
     }
 
-    useEffect(()=>ReactGA.send({ hitType: "pageview", page: "page: window.location.href" }),[])
+    useEffect(()=>ReactGA.send({ hitType: "pageview", page: window.location.href }),[])
 
     return (
         <div className='eucalyptus-bg'>
