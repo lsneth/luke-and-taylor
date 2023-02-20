@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from "react-ga4"
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import './styles/styles.css'
 import Photos from './pages/Photos'
@@ -7,6 +8,7 @@ import Registry from './pages/Registry'
 import Nav from './components/Nav'
 
 export default function App() {
+ReactGA.initialize('G-4GBXBDPV9M')
  return (
   <HashRouter className='App'>
     <Routes>

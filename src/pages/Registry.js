@@ -1,6 +1,21 @@
+import { useEffect } from 'react'
+import ReactGA from "react-ga4"
+
 import portrait from '../images/registry.jpg'
 
 export default function Registry() {
+    ReactGA.initialize('G-4GBXBDPV9M')
+    ReactGA.send({ hitType: "pageview", page: "/#/registry" })
+
+    function sendEvent({category, action}){
+        ReactGA.event({
+            category,
+            action
+        })
+    }
+
+    useEffect(()=>ReactGA.send({ hitType: "pageview", page: "/#/registry" }),[])
+
     return (
         <div className='eucalyptus-bg'>
             <div id='registry-content'>
@@ -21,10 +36,10 @@ export default function Registry() {
                 </p>
                 <div id='registry-buttons'>
                     <a href='https://www.amazon.com/wedding/registry/25JNW0YU3NZJM'>
-                        <button id='amazon'>Amazon Registry</button> 
+                        <button id='amazon' onClick={()=>sendEvent({category:'registry buttons', action:'amazon click'})}>Amazon Registry</button> 
                     </a>
                     <a href='https://venmo.com/u/luke_nethercott'>
-                        <button id='venmo'>Venmo</button> 
+                        <button id='venmo' onClick={()=>sendEvent({category:'registry buttons', action:'venmo click'})}>Venmo</button> 
                     </a>
                 </div>
             </div>
