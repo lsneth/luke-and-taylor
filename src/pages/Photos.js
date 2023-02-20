@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import ReactGA from "react-ga4"
 import { Gallery } from 'react-grid-gallery'
 import Lightbox from 'yet-another-react-lightbox'
 import 'yet-another-react-lightbox/styles.css'
@@ -25,10 +24,7 @@ export default function Photos() {
 
   const handleClick = (index, item) => setIndex(index)
 
-  useEffect(()=>{
-    onresize()
-    ReactGA.send({ hitType: "pageview", page: 'Photos' })
-  },[])
+  useEffect(()=>onresize(),[])
 
   return (
     <div>
