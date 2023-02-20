@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import ReactGA from "react-ga4"
 
 import portrait from '../images/registry.jpg'
@@ -12,7 +11,7 @@ export default function Registry() {
             action
         })
     }
-    
+
     return (
         <div className='eucalyptus-bg'>
             <div id='registry-content'>
