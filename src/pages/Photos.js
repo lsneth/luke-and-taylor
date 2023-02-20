@@ -27,7 +27,7 @@ export default function Photos() {
 
   useEffect(()=>{
     onresize()
-    ReactGA.send({ hitType: "pageview", page: window.location.href })
+    ReactGA.send({ hitType: "pageview", page: 'Photos' })
   },[])
 
   return (
